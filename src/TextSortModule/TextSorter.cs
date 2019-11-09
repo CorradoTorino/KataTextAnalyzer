@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 
 namespace TextSortModule
@@ -12,13 +13,29 @@ namespace TextSortModule
         /// <inheritdoc/>
         public IEnumerable<string> Sort(string text, SortOption option)
         {
-            var result = text.Split(new []{' '},StringSplitOptions.RemoveEmptyEntries).ToList();
-
-            result.Sort();
-
-            result = result.Select(c => c.TrimEnd(punctuationsList)).ToList();
-
-            return result;
+            List<string> result;
+            
+            switch (option)
+            {
+                case SortOption.Alphabetically:
+                    result = text.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+                    result = result.Select(c => c.TrimEnd(punctuationsList)).ToList();
+                    result.Sort();
+                    return result;
+                case SortOption.WordLength:
+                    result = text.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+                    result = result.Select(c => c.TrimEnd(punctuationsList)).ToList();
+                    result = result.OrderBy(x => x.Length).ToList();                    
+                    return result;
+                    case SortOption.SentenceLength:
+                    result = text.Split(new string[] { ". " }, StringSplitOptions.RemoveEmptyEntries).ToList();
+                    result = result.Select(c => c.TrimEnd(new[] { '.' })).ToList();
+                    result = result.OrderBy(x => x.Length).ToList();
+                    return result;
+                default:
+                    throw new NotSupportedException();
+            }
+            
         }
     }
 }

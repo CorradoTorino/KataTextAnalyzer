@@ -6,7 +6,7 @@
     public enum SortOption
     {
         Alphabetically = 0,
-        WorldLength = 1,
+        WordLength = 1,
         SentenceLength = 2,
     }
 }

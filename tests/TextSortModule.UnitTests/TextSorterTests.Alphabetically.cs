@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace TextSortModule.UnitTests
 {
     [TestClass]
-    public class TextSorterTests
+    public partial class TextSorterTests
     {
         [TestMethod]
         public void SortAlphabetically_SetOfCharactersSeparatedBySpace()
