@@ -9,7 +9,6 @@ namespace TextStatisticsModule
         public ITextStatistics GetStatistics(string text)
         {
             var words = text.Split(new char[] { ' ', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries).ToList();
-
             foreach (var punctuation in PunctuationsList)
             {
                 words.RemoveAll(x => x.Equals(punctuation));
