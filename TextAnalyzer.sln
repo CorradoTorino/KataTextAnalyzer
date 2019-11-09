@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CB9710F5-8AA0-4D05-A450-BE92B2A73BFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8A9966AC-6234-4A17-A7A7-83DC602C60EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextSortModule", "src\TextSortModule\TextSortModule.csproj", "{F6EC4FAB-6BFE-4D70-963A-9F004202D49E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextStatisticsModule", "src\TextStatisticsModule\TextStatisticsModule.csproj", "{CA8ADCE6-3787-4650-98CE-F5604C1A008F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextAnalyzerConsoleApp", "src\TextAnalyzerConsoleApp\TextAnalyzerConsoleApp.csproj", "{41C01824-72B5-46F5-B319-EE3BE09CE588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextSortModule.UnitTests", "tests\TextSortModule.UnitTests\TextSortModule.UnitTests.csproj", "{0C44D88C-D711-4EB8-9EB4-CC33237536B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6EC4FAB-6BFE-4D70-963A-9F004202D49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6EC4FAB-6BFE-4D70-963A-9F004202D49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6EC4FAB-6BFE-4D70-963A-9F004202D49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6EC4FAB-6BFE-4D70-963A-9F004202D49E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA8ADCE6-3787-4650-98CE-F5604C1A008F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8ADCE6-3787-4650-98CE-F5604C1A008F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8ADCE6-3787-4650-98CE-F5604C1A008F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8ADCE6-3787-4650-98CE-F5604C1A008F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C01824-72B5-46F5-B319-EE3BE09CE588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C01824-72B5-46F5-B319-EE3BE09CE588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C01824-72B5-46F5-B319-EE3BE09CE588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C01824-72B5-46F5-B319-EE3BE09CE588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C44D88C-D711-4EB8-9EB4-CC33237536B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C44D88C-D711-4EB8-9EB4-CC33237536B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C44D88C-D711-4EB8-9EB4-CC33237536B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C44D88C-D711-4EB8-9EB4-CC33237536B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6EC4FAB-6BFE-4D70-963A-9F004202D49E} = {CB9710F5-8AA0-4D05-A450-BE92B2A73BFE}
+		{CA8ADCE6-3787-4650-98CE-F5604C1A008F} = {CB9710F5-8AA0-4D05-A450-BE92B2A73BFE}
+		{41C01824-72B5-46F5-B319-EE3BE09CE588} = {CB9710F5-8AA0-4D05-A450-BE92B2A73BFE}
+		{0C44D88C-D711-4EB8-9EB4-CC33237536B6} = {8A9966AC-6234-4A17-A7A7-83DC602C60EC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD6DC996-FA67-49D3-B8A9-D9016CE804CF}
+	EndGlobalSection
+EndGlobal
