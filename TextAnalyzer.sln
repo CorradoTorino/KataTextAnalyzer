@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextStatisticsFileService",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextSortFileService", "src\TextSortFileService\TextSortFileService.csproj", "{E4D9DE21-FA4B-4EEA-9541-6B618A4ECBBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyzerConsoleApp.IntegrationTests", "TextAnalyzerConsoleApp.IntegrationTests\TextAnalyzerConsoleApp.IntegrationTests.csproj", "{D5E01F6E-4F1F-4F51-A654-BCBF3032A4DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{E4D9DE21-FA4B-4EEA-9541-6B618A4ECBBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4D9DE21-FA4B-4EEA-9541-6B618A4ECBBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4D9DE21-FA4B-4EEA-9541-6B618A4ECBBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E01F6E-4F1F-4F51-A654-BCBF3032A4DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E01F6E-4F1F-4F51-A654-BCBF3032A4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E01F6E-4F1F-4F51-A654-BCBF3032A4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E01F6E-4F1F-4F51-A654-BCBF3032A4DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{9BE2FD23-851A-4126-BCB4-84CECE2E1673} = {8A9966AC-6234-4A17-A7A7-83DC602C60EC}
 		{40484D2A-3636-4A8D-BFB3-576877A795D3} = {CB9710F5-8AA0-4D05-A450-BE92B2A73BFE}
 		{E4D9DE21-FA4B-4EEA-9541-6B618A4ECBBE} = {CB9710F5-8AA0-4D05-A450-BE92B2A73BFE}
+		{D5E01F6E-4F1F-4F51-A654-BCBF3032A4DC} = {8A9966AC-6234-4A17-A7A7-83DC602C60EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD6DC996-FA67-49D3-B8A9-D9016CE804CF}

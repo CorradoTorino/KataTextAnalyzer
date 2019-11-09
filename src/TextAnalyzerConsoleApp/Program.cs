@@ -1,8 +1,6 @@
 ﻿using System;
-using TextSortFileService;
-using TextStatisticsFileService;
 
-namespace CodeChallenge
+namespace TextAnalyzerConsoleApp
 {
     class Program
     {
@@ -10,8 +8,7 @@ namespace CodeChallenge
         {
             Console.WriteLine("Hello World!");
 
-            var textSort = new TextSorterFileService();
-            var statistician = new TextStatisticianFileService();
+            var component = new TextAnalyzerComponent();
         }
     }
 }
