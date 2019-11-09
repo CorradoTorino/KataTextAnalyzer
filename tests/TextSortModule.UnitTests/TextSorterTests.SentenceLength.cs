@@ -14,7 +14,7 @@ namespace TextSortModule.UnitTests
             const string text = "Short sentence. This a longer sentence.";
 
             // Act
-            var result = sut.Sort(text, SortOption.SentenceLength);
+            var result = sut.Sort(text, SortOption.BySentenceLength);
 
             // Assert
             var expected = new List<string>

@@ -14,7 +14,7 @@ namespace TextSortModule.UnitTests
             const string text = "cc b aaa";
 
             // Act
-            var result = sut.Sort(text, SortOption.WordLength);
+            var result = sut.Sort(text, SortOption.ByWordLength);
 
             // Assert
             var expected = new List<string>
@@ -34,7 +34,7 @@ namespace TextSortModule.UnitTests
             const string text = "cc. b? aaa";
 
             // Act
-            var result = sut.Sort(text, SortOption.WordLength);
+            var result = sut.Sort(text, SortOption.ByWordLength);
 
             // Assert
             var expected = new List<string>
