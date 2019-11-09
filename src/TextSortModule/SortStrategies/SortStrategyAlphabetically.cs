@@ -8,8 +8,10 @@ namespace TextSortModule.SortStrategies
     {
         public IEnumerable<string> Sort(string text)
         {
-            var result = text.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
-            result = result.Select(c => c.TrimEnd(TextSorter.PunctuationsList)).ToList();
+            var result = text
+                .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(c => c.TrimEnd(TextSorter.PunctuationsList)).ToList();
+
             result.Sort();
             return result;
         }
