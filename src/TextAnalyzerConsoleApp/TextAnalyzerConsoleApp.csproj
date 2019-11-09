@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TextSortFileService\TextSortFileService.csproj" />
+    <ProjectReference Include="..\TextStatisticsFileService\TextStatisticsFileService.csproj" />
+  </ItemGroup>
+
 </Project>

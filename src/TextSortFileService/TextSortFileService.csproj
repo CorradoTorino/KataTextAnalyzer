@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\TextSortModule\TextSortModule.csproj" />
+    <ProjectReference Include="..\TextSortModule\TextSortModule.csproj" />
   </ItemGroup>
 
 </Project>
